@@ -1,0 +1,1289 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+.subir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-brown-100);
+  text-decoration: none;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.subir::after {
+  content: "↑" ;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  transition: margin-top 250ms;
+}
+
+.subir::after {
+  margin-top: -8px;
+}
+
+.portugal-child {
+  position: absolute;
+  top: 229px;
+  left: -10px;
+  background-color: var(--color-gray-200);
+  width: 527px;
+  height: 3042px;
+}
+.portugal-inner,
+.portugal-item {
+  position: absolute;
+  top: 3271px;
+  left: 0;
+  width: 2880px;
+  height: 484px;
+}
+.portugal-inner {
+  top: 3387px;
+  left: 1158px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+  width: 222px;
+  height: 78px;
+}
+.aqui-esto-disponiveis,
+.voltar1 {
+  position: absolute;
+  display: inline-block;
+}
+.voltar1 {
+  top: 3392px;
+  left: 1164px;
+  font-size: var(--font-size-4xl);
+  font-weight: 600;
+  color: var(--color-brown-100);
+  width: 210px;
+  height: 68px;
+  cursor: pointer;
+}
+.aqui-esto-disponiveis {
+  top: 312px;
+  left: 116px;
+  font-size: var(--font-size-5xl);
+  text-align: left;
+  width: 1188px;
+  height: 160px;
+}
+.portugal-child1 {
+  position: absolute;
+  top: 709px;
+  left: 635px;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 713px;
+  height: 361px;
+}
+.vinhovendido1-4-icon {
+  position: absolute;
+  top: 604px;
+  left: 517px;
+  width: 473px;
+  height: 478px;
+  object-fit: cover;
+}
+.b3 {
+  position: absolute;
+  top: 731px;
+  left: 1180px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 108px;
+  height: 86px;
+}
+.portugal-child2,
+.portugal-child3 {
+  position: absolute;
+  top: 810px;
+  left: 1161.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child3 {
+  left: 1277.71px;
+}
+.portugal-child4,
+.portugal-child5,
+.portugal-child6 {
+  position: absolute;
+  top: 810px;
+  left: 1248.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child5,
+.portugal-child6 {
+  left: 1219.71px;
+}
+.portugal-child6 {
+  left: 1190.71px;
+}
+.p6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.classificaes7 {
+  margin: 0;
+}
+.classificaes6 {
+  top: 845px;
+  left: 1159px;
+  width: 149px;
+  height: 68px;
+}
+.classificaes6,
+.herdade-do-arrepiado3,
+.pvp-13903 {
+  position: absolute;
+  display: inline-block;
+}
+.pvp-13903 {
+  top: 941px;
+  left: 1159px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-teal);
+  width: 156px;
+  height: 107px;
+}
+.herdade-do-arrepiado3 {
+  top: 760px;
+  left: 842px;
+  text-align: left;
+  width: 277px;
+  height: 95px;
+}
+.portugal-4-icon {
+  position: absolute;
+  top: 867px;
+  left: 840px;
+  width: 61px;
+  height: 46px;
+  object-fit: cover;
+}
+.alentejo-portugal3 {
+  position: absolute;
+  top: 873px;
+  left: 901px;
+  text-align: left;
+  display: inline-block;
+  width: 196px;
+  height: 40px;
+}
+.portugal-child7 {
+  position: absolute;
+  top: 1237px;
+  left: 635px;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 713px;
+  height: 361px;
+}
+.vinhovendido1-5-icon {
+  position: absolute;
+  top: 1132px;
+  left: 517px;
+  width: 473px;
+  height: 478px;
+  object-fit: cover;
+}
+.b4 {
+  position: absolute;
+  top: 1259px;
+  left: 1180px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 108px;
+  height: 86px;
+}
+.portugal-child8,
+.portugal-child9 {
+  position: absolute;
+  top: 1338px;
+  left: 1161.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child9 {
+  left: 1277.71px;
+}
+.portugal-child10,
+.portugal-child11,
+.portugal-child12 {
+  position: absolute;
+  top: 1338px;
+  left: 1248.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child11,
+.portugal-child12 {
+  left: 1219.71px;
+}
+.portugal-child12 {
+  left: 1190.71px;
+}
+.classificaes8 {
+  top: 1373px;
+  left: 1159px;
+  width: 149px;
+  height: 68px;
+}
+.classificaes8,
+.herdade-do-arrepiado4,
+.pvp-13904 {
+  position: absolute;
+  display: inline-block;
+}
+.pvp-13904 {
+  top: 1469px;
+  left: 1159px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-teal);
+  width: 156px;
+  height: 107px;
+}
+.herdade-do-arrepiado4 {
+  top: 1288px;
+  left: 842px;
+  text-align: left;
+  width: 277px;
+  height: 95px;
+}
+.portugal-5-icon {
+  position: absolute;
+  top: 1395px;
+  left: 840px;
+  width: 61px;
+  height: 46px;
+  object-fit: cover;
+}
+.alentejo-portugal4 {
+  position: absolute;
+  top: 1401px;
+  left: 901px;
+  text-align: left;
+  display: inline-block;
+  width: 196px;
+  height: 40px;
+}
+.portugal-child13 {
+  position: absolute;
+  top: 1749px;
+  left: 635px;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 713px;
+  height: 361px;
+}
+.vinhovendido1-6-icon {
+  position: absolute;
+  top: 1644px;
+  left: 517px;
+  width: 473px;
+  height: 478px;
+  object-fit: cover;
+}
+.b5 {
+  position: absolute;
+  top: 1771px;
+  left: 1180px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 108px;
+  height: 86px;
+}
+.portugal-child14,
+.portugal-child15 {
+  position: absolute;
+  top: 1850px;
+  left: 1161.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child15 {
+  left: 1277.71px;
+}
+.portugal-child16,
+.portugal-child17,
+.portugal-child18 {
+  position: absolute;
+  top: 1850px;
+  left: 1248.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child17,
+.portugal-child18 {
+  left: 1219.71px;
+}
+.portugal-child18 {
+  left: 1190.71px;
+}
+.classificaes10 {
+  top: 1885px;
+  left: 1159px;
+  width: 149px;
+  height: 68px;
+}
+.classificaes10,
+.herdade-do-arrepiado5,
+.pvp-13905 {
+  position: absolute;
+  display: inline-block;
+}
+.pvp-13905 {
+  top: 1981px;
+  left: 1159px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-teal);
+  width: 156px;
+  height: 107px;
+}
+.herdade-do-arrepiado5 {
+  top: 1800px;
+  left: 842px;
+  text-align: left;
+  width: 277px;
+  height: 95px;
+}
+.portugal-6-icon {
+  position: absolute;
+  top: 1907px;
+  left: 840px;
+  width: 61px;
+  height: 46px;
+  object-fit: cover;
+}
+.alentejo-portugal5 {
+  position: absolute;
+  top: 1913px;
+  left: 901px;
+  text-align: left;
+  display: inline-block;
+  width: 196px;
+  height: 40px;
+}
+.portugal-child19 {
+  position: absolute;
+  top: 2261px;
+  left: 635px;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 713px;
+  height: 361px;
+}
+.vinhovendido1-7-icon {
+  position: absolute;
+  top: 2156px;
+  left: 517px;
+  width: 473px;
+  height: 478px;
+  object-fit: cover;
+}
+.b6 {
+  position: absolute;
+  top: 2283px;
+  left: 1180px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 108px;
+  height: 86px;
+}
+.portugal-child20,
+.portugal-child21 {
+  position: absolute;
+  top: 2362px;
+  left: 1161.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child21 {
+  left: 1277.71px;
+}
+.portugal-child22,
+.portugal-child23,
+.portugal-child24 {
+  position: absolute;
+  top: 2362px;
+  left: 1248.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child23,
+.portugal-child24 {
+  left: 1219.71px;
+}
+.portugal-child24 {
+  left: 1190.71px;
+}
+.classificaes12 {
+  top: 2397px;
+  left: 1159px;
+  width: 149px;
+  height: 68px;
+}
+.classificaes12,
+.herdade-do-arrepiado6,
+.pvp-13906 {
+  position: absolute;
+  display: inline-block;
+}
+.pvp-13906 {
+  top: 2493px;
+  left: 1159px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-teal);
+  width: 156px;
+  height: 107px;
+}
+.herdade-do-arrepiado6 {
+  top: 2312px;
+  left: 842px;
+  text-align: left;
+  width: 277px;
+  height: 95px;
+}
+.portugal-7-icon {
+  position: absolute;
+  top: 2419px;
+  left: 840px;
+  width: 61px;
+  height: 46px;
+  object-fit: cover;
+}
+.alentejo-portugal6 {
+  position: absolute;
+  top: 2425px;
+  left: 901px;
+  text-align: left;
+  display: inline-block;
+  width: 196px;
+  height: 40px;
+}
+.portugal-child25 {
+  position: absolute;
+  top: 2773px;
+  left: 635px;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 713px;
+  height: 361px;
+}
+.vinhovendido1-8-icon {
+  position: absolute;
+  top: 2668px;
+  left: 517px;
+  width: 473px;
+  height: 478px;
+  object-fit: cover;
+}
+.b7 {
+  position: absolute;
+  top: 2795px;
+  left: 1180px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 108px;
+  height: 86px;
+}
+.portugal-child26,
+.portugal-child27 {
+  position: absolute;
+  top: 2874px;
+  left: 1161.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child27 {
+  left: 1277.71px;
+}
+.portugal-child28,
+.portugal-child29,
+.portugal-child30 {
+  position: absolute;
+  top: 2874px;
+  left: 1248.71px;
+  width: 29px;
+  height: 29px;
+}
+.portugal-child29,
+.portugal-child30 {
+  left: 1219.71px;
+}
+.portugal-child30 {
+  left: 1190.71px;
+}
+.classificaes14 {
+  top: 2909px;
+  left: 1159px;
+  width: 149px;
+  height: 68px;
+}
+.classificaes14,
+.herdade-do-arrepiado7,
+.pvp-13907 {
+  position: absolute;
+  display: inline-block;
+}
+.pvp-13907 {
+  top: 3005px;
+  left: 1159px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-teal);
+  width: 156px;
+  height: 107px;
+}
+.herdade-do-arrepiado7 {
+  top: 2824px;
+  left: 842px;
+  text-align: left;
+  width: 277px;
+  height: 95px;
+}
+.portugal-8-icon {
+  position: absolute;
+  top: 2931px;
+  left: 840px;
+  width: 61px;
+  height: 46px;
+  object-fit: cover;
+}
+.alentejo-portugal7 {
+  position: absolute;
+  top: 2937px;
+  left: 901px;
+  text-align: left;
+  display: inline-block;
+  width: 196px;
+  height: 40px;
+}
+.preos1,
+.regies-portugal1 {
+  position: absolute;
+  top: 709px;
+  left: 53px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  width: 327px;
+  height: 63px;
+}
+.preos1 {
+  top: 1239px;
+  left: 67px;
+  text-align: left;
+}
+.alentejo1,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.do1,
+.douro3,
+.pennsula-de-setbal1 {
+  position: absolute;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  height: 50px;
+}
+.douro3 {
+  top: 784px;
+  left: 68px;
+  width: 103px;
+  cursor: pointer;
+}
+.alentejo1,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.do1,
+.pennsula-de-setbal1 {
+  top: 1313px;
+  left: 75px;
+  width: 108px;
+}
+.alentejo1,
+.div6,
+.div7,
+.div8,
+.div9,
+.do1,
+.pennsula-de-setbal1 {
+  top: 1368px;
+  left: 73px;
+  width: 129px;
+}
+.alentejo1,
+.div7,
+.div8,
+.div9,
+.do1,
+.pennsula-de-setbal1 {
+  top: 1422px;
+  left: 74px;
+  width: 149px;
+}
+.alentejo1,
+.div8,
+.div9,
+.do1,
+.pennsula-de-setbal1 {
+  top: 1477px;
+  left: 75px;
+}
+.alentejo1,
+.div9,
+.do1,
+.pennsula-de-setbal1 {
+  top: 1532px;
+  width: 90px;
+}
+.alentejo1,
+.do1,
+.pennsula-de-setbal1 {
+  top: 839px;
+  left: 67px;
+  width: 140px;
+}
+.do1,
+.pennsula-de-setbal1 {
+  top: 898px;
+  left: 68px;
+  width: 67px;
+}
+.pennsula-de-setbal1 {
+  top: 956px;
+  width: 354px;
+}
+.logo12 {
+  position: absolute;
+  top: 42px;
+  left: 132px;
+  background-color: var(--color-gray-100);
+  width: 240px;
+  height: 59px;
+}
+.ofertas6,
+.regies6,
+.uvas6,
+.vinhos6 {
+  position: absolute;
+  top: 161px;
+  left: 155px;
+  font-weight: 500;
+  display: inline-block;
+  width: 97px;
+  height: 27px;
+  cursor: pointer;
+}
+.ofertas6,
+.regies6,
+.uvas6 {
+  left: 313px;
+  width: 141px;
+}
+.regies6,
+.uvas6 {
+  left: 482px;
+  width: 117px;
+  height: 21px;
+}
+.regies6 {
+  top: 163px;
+  left: 617px;
+  width: 159px;
+  height: 39px;
+}
+.barra-de-pesquisa6 {
+  position: absolute;
+  top: 149px;
+  left: 1046px;
+  border-radius: var(--br-6xl);
+  width: 353px;
+  height: 43px;
+}
+.copo-de-vinho-removebg-preview-icon6 {
+  position: absolute;
+  top: 166px;
+  left: 116px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.discount-sticker-with-percenta-icon6,
+.uvas-1-icon6 {
+  position: absolute;
+  top: 166px;
+  left: 276px;
+  width: 29px;
+  height: 29px;
+  object-fit: cover;
+}
+.uvas-1-icon6 {
+  left: 445px;
+  width: 30px;
+  height: 30px;
+}
+.man-1-icon6,
+.pinodelocalizacao-1-icon6 {
+  position: absolute;
+  top: 169px;
+  left: 588px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.man-1-icon6 {
+  top: 27px;
+  left: 1355px;
+  width: 44px;
+  height: 44px;
+}
+.frame-child8 {
+  position: absolute;
+  top: 23px;
+  left: 1327px;
+  border-right: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 2px;
+  height: 53px;
+}
+.idioma12,
+.portugus-portugal6 {
+  position: absolute;
+  left: 1127px;
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+}
+.idioma12 {
+  top: 28px;
+  font-size: var(--font-size-xs);
+  width: 66px;
+  height: 25px;
+  opacity: 0.5;
+}
+.portugus-portugal6 {
+  top: 37px;
+  font-size: var(--font-size-sm);
+  width: 174px;
+  height: 24px;
+}
+.frame-child9 {
+  position: absolute;
+  top: 34px;
+  left: 116px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #d9d9d9;
+  width: 266px;
+  height: 119px;
+}
+.logo13 {
+  position: absolute;
+  top: 31px;
+  left: 132px;
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 230px;
+  height: 79px;
+  color: transparent;
+  margin-bottom: 0;
+}
+.lupa-1-icon6 {
+  position: absolute;
+  top: 160px;
+  left: 1059px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.pesquisar-qualquer-vinho6 {
+  position: absolute;
+  top: 156px;
+  left: 1098px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  display: inline-block;
+  width: 313px;
+  height: 26px;
+}
+.logo-parent3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--color-brown-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 229px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-ibm-plex-sans-condensed);
+  z-index: 1;
+}
+.man-1-icon7 {
+  top: 27px;
+  left: 1355px;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+.frame-child11,
+.logo15,
+.man-1-icon7 {
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+}
+.frame-child11 {
+  top: 34px;
+  left: 116px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #d9d9d9;
+  width: 266px;
+  height: 119px;
+}
+.logo15 {
+  top: 14px;
+  left: 70px;
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 230px;
+  height: 79px;
+}
+
+
+.portugal {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3513px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-assistant);
+}
+
+.ofertas6:hover,
+.uvas6:hover,
+.vinhos6:hover {
+  color: black;
+}
+
+.regies6 {
+  color: black;
+}
+
+.alentejo1:hover,
+.do1:hover,
+.pennsula-de-setbal1:hover,
+.douro3:hover {
+  color: rgb(255, 255, 255);
+}
+
+.pesquisar-qualquer-vinho6 {
+  position: absolute;
+  top: 156px;
+  left: 1098px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  display: inline-block;
+  width: 313px;
+  height: 26px;
+}
+
+.input-field {
+  width: 80%;
+  padding: 5px;
+  outline: 0;
+  background-color: transparent;
+  border: transparent;
+  color: white;
+    font-weight: bold;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: white;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.input-field-modal {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  background-color: transparent;
+  border: transparent;
+  color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.login-child {
+  position: absolute;
+  top: 102px;
+  left: 243px;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 954px;
+  height: 1418px;
+}
+.iniciar-sesso2,
+.junte-se-a-ns1 {
+  position: absolute;
+  color: var(--color-black);
+  display: inline-block;
+}
+.junte-se-a-ns1 {
+  top: 290px;
+  left: 386px;
+  font-size: var(--font-size-6xl);
+  width: 604px;
+  height: 85px;
+}
+.iniciar-sesso2 {
+  top: 375px;
+  left: 396px;
+  font-size: var(--font-size-5xl);
+  width: 626px;
+  height: 86px;
+}
+.login-item {
+  position: absolute;
+  top: 490px;
+  left: 396px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 659px;
+  height: 89px;
+}
+.introduza-o-seu1 {
+  position: absolute;
+  top: 510px;
+  left: 416px;
+  color: var(--color-gray-400);
+  display: inline-block;
+  width: 620px;
+  height: 40px;
+}
+.login-inner {
+  position: absolute;
+  top: 608px;
+  left: 396px;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-brown-100);
+  border: 1px solid var(--color-brown-100);
+  box-sizing: border-box;
+  width: 659px;
+  height: 92px;
+}
+.login-child1 {
+  top: 803px;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-black);
+}
+.login-child1,
+.login-child2,
+.login-child3 {
+  position: absolute;
+  left: 396px;
+  border-radius: var(--br-2xl);
+  box-sizing: border-box;
+  width: 659px;
+  height: 92px;
+}
+.login-child2 {
+  top: 1060px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-white);
+}
+.login-child3 {
+  top: 934px;
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-gray-300);
+}
+.continuar1,
+.ou1 {
+  position: absolute;
+  display: inline-block;
+}
+.continuar1 {
+  top: 619px;
+  left: 396px;
+  font-size: var(--font-size-4xl);
+  text-align: center;
+  width: 659px;
+  height: 70px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.continuar1:hover {
+  opacity: 0.8;
+}
+
+
+.ou1 {
+  top: 728px;
+  left: 704px;
+  color: var(--color-black);
+  width: 43px;
+  height: 46px;
+  opacity: 0.5;
+}
+.login-child4,
+.login-child5 {
+  position: absolute;
+  top: 760.68px;
+  left: 396px;
+  width: 294px;
+  height: 3.67px;
+  opacity: 0.5;
+}
+.login-child5 {
+  top: 760.55px;
+  left: 760.99px;
+  width: 294.01px;
+  height: 1.93px;
+}
+.image-14-icon1,
+.image-15-icon1 {
+  position: absolute;
+  top: 957px;
+  left: 433px;
+  width: 62px;
+  height: 46px;
+  object-fit: cover;
+}
+.image-15-icon1 {
+  top: 824px;
+  left: 435px;
+  width: 60px;
+  height: 49px;
+}
+.continuar-com-a1 {
+  top: 835px;
+  color: white;
+  text-align: left;
+  font-size: xx-large;
+}
+.continuar-com-a1,
+.continuar-com-o2,
+.continuar-com-o3 {
+  position: absolute;
+  left: 520px;
+  display: inline-block;
+  width: 479px;
+  height: 57px;
+}
+.continuar-com-o2 {
+  top: 964px;
+  color: white;
+  text-align: left;
+  font-size: xx-large;
+}
+.continuar-com-o3 {
+  top: 1081px;
+  color: var(--color-gray-100);
+  text-align: left;
+  font-size: xx-large;
+}
+
+.image-16-icon1,
+.image-17-icon1 {
+  position: absolute;
+  top: 1072px;
+  left: 433px;
+  width: 63px;
+  height: 69px;
+  object-fit: cover;
+}
+.image-17-icon1 {
+  top: 196px;
+  left: 1027px;
+  width: 71px;
+  height: 71px;
+  cursor: pointer;
+}
+.junte-se-a-ns2,
+.no-tem-conta {
+  position: absolute;
+  font-weight: 600;
+  text-align: right;
+  display: inline-block;
+}
+.no-tem-conta {
+  top: 1240px;
+  left: 694px;
+  color: var(--color-black);
+  width: 361px;
+  height: 42px;
+}
+.junte-se-a-ns2 {
+  top: 1282px;
+  left: 791px;
+  color: var(--color-brown-100);
+  width: 260px;
+  height: 49px;
+  cursor: pointer;
+}
+
+.login {
+  position: relative;
+  width: 100%;
+  height: 1622px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-assistant);
+}
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,49 @@
+:root {
+  /* fonts */
+  --font-assistant: Assistant;
+  --font-ibm-plex-sans-condensed: "IBM Plex Sans Condensed";
+  --font-hubballi: Hubballi;
+
+  /* font sizes */
+  --font-size-xs: 16px;
+  --font-size-sm: 20px;
+  --font-size-base: 24px;
+  --font-size-lg: 28px;
+  --font-size-xl: 32px;
+  --font-size-2xl: 36px;
+  --font-size-3xl: 40px;
+  --font-size-4xl: 48px;
+  --font-size-5xl: 64px;
+  --font-size-6xl: 80px;
+  --font-size-7xl: 96px;
+  --font-size-8xl: 128px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-brown-100: #743232;
+  --color-black: #000;
+  --color-gray-100: #d9d9d9;
+  --color-gray-200: #b99999;
+  --color-gray-300: #3a5898;
+  --color-gray-400: rgba(0, 0, 0, 0.3);
+  --color-teal: #064f6a;
+
+  /* border radiuses */
+  --br-7xs: 7px;
+  --br-6xs: 30px;
+  --br-5xs: 31px;
+  --br-4xs: 32px;
+  --br-3xs: 33px;
+  --br-2xs: 34px;
+  --br-xs: 36px;
+  --br-sm: 39px;
+  --br-md: 41px;
+  --br-lg: 43px;
+  --br-xl: 44px;
+  --br-2xl: 46px;
+  --br-3xl: 47px;
+  --br-4xl: 49px;
+  --br-5xl: 63px;
+  --br-6xl: 100px;
+  --br-7xl: 142px;
+}

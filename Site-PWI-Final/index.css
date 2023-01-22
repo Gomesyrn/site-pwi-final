@@ -1,0 +1,1997 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.subir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-brown-100);
+  text-decoration: none;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.subir::after {
+  content: "▲" ;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  transition: margin-top 250ms;
+
+}
+
+.subir::after {
+  margin-top: -8px;
+}
+
+
+
+
+
+
+
+.obtenha-acesso-a,
+.os-mais-vendidos {
+  position: absolute;
+  top: 301px;
+  left: 111px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  text-align: left;
+  width: 783px;
+  height: 160px;
+}
+.os-mais-vendidos {
+  top: 1811px;
+  left: 103px;
+  height: 81px;
+}
+.home-child {
+  position: absolute;
+  top: 563px;
+  left: 761px;
+  border-radius: var(--br-4xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 569px;
+  height: 280px;
+}
+.imagem-vinhos-1 {
+  position: absolute;
+  top: 563px;
+  left: 113px;
+  border-radius: 38px;
+  width: 576px;
+  height: 327px;
+  object-fit: cover;
+}
+.home-item {
+  position: absolute;
+  top: 781px;
+  left: 117px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 568px;
+  height: 101px;
+}
+
+.encontre-os-vinhos {
+  position: absolute;
+  top: 808px;
+  left: 161px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-hubballi);
+  text-align: left;
+  display: inline-block;
+  width: 480px;
+  height: 47px;
+}
+.garrafas-vinho-1 {
+  position: absolute;
+  top: 493px;
+  left: 866px;
+  width: 362px;
+  height: 362px;
+  object-fit: cover;
+}
+.home-inner {
+  position: absolute;
+  top: 781px;
+  left: 761px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 569px;
+  height: 101px;
+}
+.discount-sticker-with-percenta-icon15 {
+  position: absolute;
+  top: 580px;
+  left: 784px;
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+}
+.melhores-promoes-agora {
+  position: absolute;
+  top: 808px;
+  left: 806px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-hubballi);
+  display: inline-block;
+  width: 480px;
+  height: 47px;
+}
+.home-child1 {
+  position: absolute;
+  top: 984px;
+  left: 117px;
+  background-color: var(--color-brown-100);
+  width: 1213px;
+  height: 615px;
+}
+.no-vais-queres {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.uma-nova-promooclassifica {
+  margin: 0;
+}
+.no-vais-queres-container,
+.obtenha-acesso-s {
+  position: absolute;
+  top: 1037px;
+  left: 192px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  color: var(--color-white);
+  text-align: left;
+  width: 996px;
+  height: 174px;
+}
+.obtenha-acesso-s {
+  top: 1248px;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-hubballi);
+  width: 935px;
+  height: 168px;
+}
+.rectangle-button,
+.rectangle-input {
+  position: absolute;
+  top: 1470px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  height: 78px;
+}
+.rectangle-input {
+  border: 1px solid var(--color-black);
+  background-color: var(--color-white);
+  left: 199px;
+  border-radius: 15px;
+  width: 575px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 3px solid var(--color-white);
+  padding: 0;
+  background-color: transparent;
+  left: 815px;
+  border-radius: var(--br-sm);
+  width: 258px;
+}
+.introduza-o-seu2 {
+  top: 1483px;
+  left: 223px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  width: 505px;
+  height: 51px;
+  opacity: 0.1;
+}
+.aderir-j,
+.best-sellers-portugal,
+.introduza-o-seu2 {
+  position: absolute;
+  text-align: left;
+  display: inline-block;
+}
+.aderir-j {
+  top: 1481px;
+  left: 874px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  color: var(--color-white);
+  width: 190px;
+  height: 39px;
+}
+.best-sellers-portugal {
+  top: 1781px;
+  left: 103px;
+  font-weight: 300;
+  width: 535px;
+  height: 77px;
+}
+.home-child2 {
+  position: absolute;
+  top: 1991px;
+  left: 105px;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 341px;
+  height: 627px;
+}
+.vinhovendido1-1-icon {
+  position: absolute;
+  top: 1864px;
+  left: 0;
+  height: 593px;
+  object-fit: cover;
+}
+.b8 {
+  position: absolute;
+  top: 2075px;
+  left: 279px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 108px;
+  height: 86px;
+}
+.home-child3,
+.home-child4,
+.home-child5 {
+  position: absolute;
+  top: 2154px;
+  left: 260.71px;
+  width: 29px;
+  height: 29px;
+}
+.home-child4,
+.home-child5 {
+  left: 376px;
+  display: none;
+}
+.home-child5 {
+  left: 347px;
+}
+.home-child6,
+.home-child7,
+.home-child8 {
+  position: absolute;
+  top: 2154px;
+  left: 318.71px;
+  width: 29px;
+  height: 29px;
+}
+.home-child7,
+.home-child8 {
+  left: 289.71px;
+}
+.home-child8 {
+  left: 347.71px;
+}
+.classificaes16 {
+  top: 2189px;
+  left: 258px;
+  font-size: var(--font-size-base);
+  width: 149px;
+  height: 68px;
+}
+.classificaes16,
+.herdade-do-arrepiado8,
+.pvp-13908 {
+  position: absolute;
+  display: inline-block;
+}
+.pvp-13908 {
+  top: 2291px;
+  left: 261px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-teal);
+  width: 156px;
+  height: 107px;
+}
+.herdade-do-arrepiado8 {
+  top: 2441px;
+  left: 136px;
+  font-size: var(--font-size-base);
+  text-align: left;
+  width: 277px;
+  height: 95px;
+}
+.portugal-1-icon {
+  position: absolute;
+  top: 2545px;
+  left: 134px;
+  width: 61px;
+  height: 46px;
+  object-fit: cover;
+}
+.alentejo-portugal8 {
+  position: absolute;
+  top: 2548px;
+  left: 195px;
+  font-size: var(--font-size-base);
+  text-align: left;
+  display: inline-block;
+  width: 196px;
+  height: 40px;
+}
+.home-child9 {
+  position: absolute;
+  top: 1994px;
+  left: 540px;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 341px;
+  height: 627px;
+}
+.vinhovendido1-2-icon {
+  position: absolute;
+  top: 1867px;
+  left: 325px;
+  width: 587px;
+  height: 593px;
+  object-fit: cover;
+}
+.b9 {
+  position: absolute;
+  top: 2078px;
+  left: 714px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 108px;
+  height: 86px;
+}
+.home-child10,
+.home-child11,
+.home-child12 {
+  position: absolute;
+  top: 2157px;
+  left: 695.71px;
+  width: 29px;
+  height: 29px;
+}
+.home-child11,
+.home-child12 {
+  left: 811px;
+  display: none;
+}
+.home-child12 {
+  left: 782px;
+}
+.home-child13,
+.home-child14,
+.home-child15 {
+  position: absolute;
+  top: 2157px;
+  left: 753.71px;
+  width: 29px;
+  height: 29px;
+}
+.home-child14,
+.home-child15 {
+  left: 724.71px;
+}
+.home-child15 {
+  left: 783.71px;
+}
+.classificaes18 {
+  top: 2192px;
+  left: 693px;
+  font-size: var(--font-size-base);
+  width: 149px;
+  height: 68px;
+}
+.classificaes18,
+.herdade-do-arrepiado9,
+.pvp-13909 {
+  position: absolute;
+  display: inline-block;
+}
+.pvp-13909 {
+  top: 2294px;
+  left: 696px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-teal);
+  width: 156px;
+  height: 107px;
+}
+.herdade-do-arrepiado9 {
+  top: 2444px;
+  left: 571px;
+  font-size: var(--font-size-base);
+  text-align: left;
+  width: 277px;
+  height: 95px;
+}
+.portugal-2-icon {
+  position: absolute;
+  top: 2548px;
+  left: 569px;
+  width: 61px;
+  height: 46px;
+  object-fit: cover;
+}
+.alentejo-portugal9 {
+  position: absolute;
+  top: 2551px;
+  left: 630px;
+  font-size: var(--font-size-base);
+  text-align: left;
+  display: inline-block;
+  width: 196px;
+  height: 40px;
+}
+.home-child16 {
+  position: absolute;
+  top: 1991px;
+  left: 976px;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 341px;
+  height: 627px;
+}
+.vinhovendido1-3-icon {
+  position: absolute;
+  top: 1864px;
+  left: 761px;
+  width: 587px;
+  height: 593px;
+  object-fit: cover;
+}
+.b10 {
+  position: absolute;
+  top: 2075px;
+  left: 1150px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 108px;
+  height: 86px;
+}
+.home-child17,
+.home-child18,
+.home-child19 {
+  position: absolute;
+  top: 2154px;
+  left: 1131.71px;
+  width: 29px;
+  height: 29px;
+}
+.home-child18,
+.home-child19 {
+  left: 1247.71px;
+}
+.home-child19 {
+  top: 2157px;
+  left: 813.71px;
+}
+.home-child20,
+.home-child21,
+.home-child22,
+.home-child23 {
+  position: absolute;
+  top: 2154px;
+  left: 378.71px;
+  width: 29px;
+  height: 29px;
+}
+.home-child21,
+.home-child22,
+.home-child23 {
+  left: 1218.71px;
+}
+.home-child22,
+.home-child23 {
+  left: 1189.71px;
+}
+.home-child23 {
+  left: 1160.71px;
+}
+.classificaes20 {
+  top: 2189px;
+  left: 1129px;
+  font-size: var(--font-size-base);
+  width: 149px;
+  height: 68px;
+}
+.classificaes20,
+.herdade-do-arrepiado10,
+.pvp-139010 {
+  position: absolute;
+  display: inline-block;
+}
+.pvp-139010 {
+  top: 2291px;
+  left: 1132px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-teal);
+  width: 156px;
+  height: 107px;
+}
+.herdade-do-arrepiado10 {
+  top: 2441px;
+  left: 1007px;
+  font-size: var(--font-size-base);
+  text-align: left;
+  width: 277px;
+  height: 95px;
+}
+.portugal-3-icon {
+  position: absolute;
+  top: 2545px;
+  left: 1005px;
+  width: 61px;
+  height: 46px;
+  object-fit: cover;
+}
+.alentejo-portugal10 {
+  position: absolute;
+  top: 2548px;
+  left: 1066px;
+  font-size: var(--font-size-base);
+  text-align: left;
+  display: inline-block;
+  width: 196px;
+  height: 40px;
+}
+.ellipse-icon,
+.home-child24 {
+  position: absolute;
+  top: 2250px;
+  left: 26px;
+  width: 110px;
+  height: 110px;
+}
+.home-child24 {
+  left: 1284px;
+}
+.arrow-icon,
+.home-child25,
+.home-child26 {
+  position: absolute;
+  top: 2293.95px;
+  left: 78.5px;
+  width: 12.55px;
+  height: 22.09px;
+}
+.home-child25,
+.home-child26 {
+  left: 1331.95px;
+}
+.home-child26 {
+  top: 7830px;
+  left: 0;
+  background-color: rgba(116, 50, 50, 0.5);
+  width: 1440px;
+  height: 727px;
+}
+.home-child27 {
+  position: absolute;
+  top: 8325px;
+  left: 0;
+  width: 1447px;
+  height: 252px;
+}
+.milhares-de-pessoas {
+  position: absolute;
+  top: 7871px;
+  left: 55px;
+  display: inline-block;
+  text-align: left;
+  width: 1339px;
+  height: 146px;
+}
+.instagramlogopng-1-icon,
+.twitterlogo-1-icon {
+  position: absolute;
+  top: 8452px;
+  left: 1342px;
+  width: 52px;
+  height: 57px;
+  object-fit: cover;
+}
+.twitterlogo-1-icon {
+  left: 1150px;
+  width: 57px;
+  cursor: pointer;
+}
+
+.instagramlogopng-1-icon  {
+  left: 1250px;
+  width: 57px;
+  cursor: pointer;
+}
+
+
+.verifique-avaliaes-verdadeir {
+  position: absolute;
+  top: 8063px;
+  left: 156px;
+  font-size: 26px;
+  text-align: left;
+  display: inline-block;
+  width: 309px;
+  height: 103px;
+}
+.th-removebg-preview-1-icon {
+  position: absolute;
+  top: 8051px;
+  left: 26px;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+.nome {
+  position: absolute;
+  top: 8459px;
+  left: 645px;
+  font-size: var(--font-size-xl);
+  text-align: left;
+  display: inline-block;
+  width: 479px;
+  height: 31px;
+  font-weight: bold;
+}
+.copo-de-vinho-removebg-preview-icon15 {
+  position: absolute;
+  top: 2835px;
+  left: 448px;
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+}
+.vinhos17 {
+  position: absolute;
+  top: 2812px;
+  left: 576px;
+  font-size: var(--font-size-8xl);
+  display: inline-block;
+  color: var(--color-brown-100);
+  text-align: left;
+  width: 387px;
+  height: 108px;
+}
+.home-child28,
+.vinhotintocapa-2-icon {
+  position: absolute;
+  left: 55px;
+  border-radius: var(--br-4xs);
+  width: 365px;
+}
+.vinhotintocapa-2-icon {
+  top: 3062px;
+  height: 243px;
+  object-fit: cover;
+}
+.home-child28 {
+  top: 3241px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.tinto1 {
+  position: absolute;
+  top: 3250px;
+  left: 75px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.home-child29,
+.vinhobranocapa-2-icon {
+  position: absolute;
+  left: 512px;
+  width: 404px;
+}
+.vinhobranocapa-2-icon {
+  top: 3067px;
+  border-radius: var(--br-3xs);
+  height: 269px;
+  object-fit: cover;
+}
+.home-child29 {
+  top: 3241px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.branco1 {
+  position: absolute;
+  top: 3250px;
+  left: 550px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.vinhoespumantecapa-2-icon {
+  position: absolute;
+  top: 3067px;
+  left: 999px;
+  border-radius: var(--br-6xs);
+  width: 361px;
+  height: 241px;
+  object-fit: cover;
+}
+.home-child30 {
+  position: absolute;
+  top: 3235px;
+  left: 998px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 362px;
+  height: 101px;
+}
+.espumante1 {
+  position: absolute;
+  top: 3240px;
+  left: 1017px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.home-child31,
+.vinhorosecapa-2-icon {
+  position: absolute;
+  left: 55px;
+  width: 369px;
+}
+.vinhorosecapa-2-icon {
+  top: 3537px;
+  border-radius: var(--br-xs);
+  height: 303px;
+  object-fit: cover;
+}
+.home-child31 {
+  top: 3766px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.ros1 {
+  position: absolute;
+  top: 3771px;
+  left: 74px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.vinhofortificadocapa-2-icon {
+  position: absolute;
+  top: 3537px;
+  left: 512px;
+  border-radius: var(--br-xl);
+  width: 404px;
+  height: 286px;
+  object-fit: cover;
+}
+.home-child32 {
+  position: absolute;
+  top: 3766px;
+  left: 512px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 404px;
+  height: 101px;
+}
+.fortificado1 {
+  position: absolute;
+  top: 3771px;
+  left: 553px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.vinhosobremesacapa-2-icon {
+  position: absolute;
+  top: 3537px;
+  left: 979px;
+  border-radius: var(--br-5xs);
+  width: 377px;
+  height: 329px;
+  object-fit: cover;
+}
+.home-child33 {
+  position: absolute;
+  top: 3766px;
+  left: 979px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 377px;
+  height: 101px;
+}
+.ofertas17,
+.sobremesa1 {
+  position: absolute;
+  top: 3771px;
+  left: 1012px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.ofertas17 {
+  top: 4058px;
+  left: 579px;
+  font-size: var(--font-size-8xl);
+  color: var(--color-brown-100);
+  text-align: left;
+  width: 446px;
+  height: 108px;
+}
+.home-child34,
+.vinhotintocapa-2-icon1 {
+  position: absolute;
+  left: 58px;
+  border-radius: var(--br-4xs);
+  width: 365px;
+}
+.vinhotintocapa-2-icon1 {
+  top: 4308px;
+  height: 243px;
+  object-fit: cover;
+}
+.home-child34 {
+  top: 4487px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.tintos-em-promoo1 {
+  position: absolute;
+  top: 4514px;
+  left: 77px;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.home-child35,
+.vinhobranocapa-2-icon1 {
+  position: absolute;
+  left: 515px;
+  width: 404px;
+}
+.vinhobranocapa-2-icon1 {
+  top: 4313px;
+  border-radius: var(--br-3xs);
+  height: 269px;
+  object-fit: cover;
+}
+.home-child35 {
+  top: 4487px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.brancos-em-promoo1 {
+  position: absolute;
+  top: 4514px;
+  left: 534px;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  width: 375px;
+  height: 62px;
+}
+.vinhoespumantecapa-2-icon1 {
+  position: absolute;
+  top: 4313px;
+  left: 1002px;
+  border-radius: var(--br-6xs);
+  width: 361px;
+  height: 241px;
+  object-fit: cover;
+}
+.home-child36 {
+  position: absolute;
+  top: 4481px;
+  left: 1001px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 362px;
+  height: 101px;
+}
+.abaixo-de-101 {
+  position: absolute;
+  top: 4496px;
+  left: 1019px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.home-child37,
+.vinhorosecapa-2-icon1 {
+  position: absolute;
+  left: 58px;
+  width: 369px;
+}
+.vinhorosecapa-2-icon1 {
+  top: 4783px;
+  border-radius: var(--br-xs);
+  height: 303px;
+  object-fit: cover;
+}
+.home-child37 {
+  top: 5012px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.de-10-a1 {
+  position: absolute;
+  top: 5033px;
+  left: 77px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.vinhofortificadocapa-2-icon1 {
+  position: absolute;
+  top: 4783px;
+  left: 515px;
+  border-radius: var(--br-xl);
+  width: 404px;
+  height: 286px;
+  object-fit: cover;
+}
+.home-child38 {
+  position: absolute;
+  top: 5012px;
+  left: 515px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 404px;
+  height: 101px;
+}
+.de-20-a1 {
+  position: absolute;
+  top: 5030px;
+  left: 545px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.vinhosobremesacapa-2-icon1 {
+  position: absolute;
+  top: 4783px;
+  left: 982px;
+  border-radius: var(--br-5xl);
+  width: 377px;
+  height: 329px;
+  object-fit: cover;
+}
+.home-child39 {
+  position: absolute;
+  top: 5012px;
+  left: 982px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 377px;
+  height: 101px;
+}
+.acima-de-501 {
+  position: absolute;
+  top: 5030px;
+  left: 1007px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.discount-sticker-with-percenta-icon16 {
+  position: absolute;
+  top: 4088px;
+  left: 445px;
+  width: 117px;
+  height: 117px;
+  object-fit: cover;
+}
+.uvas17 {
+  position: absolute;
+  top: 5358px;
+  left: 584px;
+  font-size: var(--font-size-8xl);
+  display: inline-block;
+  color: var(--color-brown-100);
+  text-align: left;
+  width: 446px;
+  height: 108px;
+}
+.image-13-icon1,
+.image-14-icon2,
+.image-15-icon2,
+.image-16-icon2,
+.image-17-icon2,
+.image-18-icon {
+  position: absolute;
+  top: 5608px;
+  left: 63px;
+  border-radius: var(--br-6xs);
+  width: 367px;
+  height: 243px;
+  object-fit: cover;
+}
+.image-14-icon2,
+.image-15-icon2,
+.image-16-icon2,
+.image-17-icon2,
+.image-18-icon {
+  left: 535px;
+}
+.image-15-icon2,
+.image-16-icon2,
+.image-17-icon2,
+.image-18-icon {
+  left: 1006px;
+}
+.image-16-icon2,
+.image-17-icon2,
+.image-18-icon {
+  top: 6083px;
+  left: 61px;
+}
+.image-17-icon2,
+.image-18-icon {
+  top: 6087px;
+  left: 535px;
+}
+.image-18-icon {
+  top: 6083px;
+  left: 1006px;
+}
+.home-child40 {
+  position: absolute;
+  top: 5787px;
+  left: 63px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 365px;
+  height: 101px;
+}
+.touriga-nacional1 {
+  position: absolute;
+  top: 5810px;
+  left: 82px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.home-child41 {
+  position: absolute;
+  top: 5787px;
+  left: 535px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 367px;
+  height: 101px;
+}
+.anto-vaz1 {
+  position: absolute;
+  top: 5802px;
+  left: 542px;
+  display: inline-block;
+  width: 375px;
+  height: 62px;
+}
+.home-child42 {
+  position: absolute;
+  top: 5781px;
+  left: 1006px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 362px;
+  height: 101px;
+}
+.castelo1 {
+  position: absolute;
+  top: 5802px;
+  left: 1023px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.home-child43 {
+  position: absolute;
+  top: 6261px;
+  left: 61px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 369px;
+  height: 101px;
+}
+.pinot-noir1 {
+  position: absolute;
+  top: 6277px;
+  left: 82px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.home-child44 {
+  position: absolute;
+  top: 6261px;
+  left: 535px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 367px;
+  height: 101px;
+}
+.chardonnay1 {
+  position: absolute;
+  top: 6279px;
+  left: 562px;
+  display: inline-block;
+  width: 297px;
+  height: 92px;
+}
+.home-child45 {
+  position: absolute;
+  top: 6261px;
+  left: 1006px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 367px;
+  height: 101px;
+}
+.alvarinho1 {
+  position: absolute;
+  top: 6279px;
+  left: 1030px;
+  display: inline-block;
+  width: 319px;
+  height: 92px;
+}
+.uvas-3-icon {
+  position: absolute;
+  top: 5380px;
+  left: 451px;
+  width: 118px;
+  height: 118px;
+  object-fit: cover;
+}
+.regies15 {
+  position: absolute;
+  top: 6576px;
+  left: 592px;
+  font-size: var(--font-size-8xl);
+  display: inline-block;
+  color: var(--color-brown-100);
+  text-align: left;
+  width: 446px;
+  height: 108px;
+}
+.pinodelocalizacao-3-icon {
+  position: absolute;
+  top: 6602px;
+  left: 455px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.home-child46,
+.image-7-icon1 {
+  position: absolute;
+  left: 71px;
+  width: 365px;
+}
+.image-7-icon1 {
+  top: 6829px;
+  border-radius: var(--br-2xs);
+  height: 246px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.home-child46 {
+  top: 7005px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.portugal2 {
+  position: absolute;
+  top: 7017px;
+  left: 90px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+  cursor: pointer;
+}
+.home-child47,
+.image-8-icon1 {
+  position: absolute;
+  left: 527px;
+  width: 405px;
+}
+.image-8-icon1 {
+  top: 6829px;
+  border-radius: var(--br-2xs);
+  height: 269px;
+  object-fit: cover;
+}
+.home-child47 {
+  top: 7005px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.frana1 {
+  position: absolute;
+  top: 7017px;
+  left: 542px;
+  display: inline-block;
+  width: 375px;
+  height: 62px;
+}
+.home-child48,
+.image-9-icon1 {
+  position: absolute;
+  left: 993px;
+  width: 366px;
+}
+.image-9-icon1 {
+  top: 6829px;
+  border-radius: var(--br-md);
+  height: 243px;
+  object-fit: cover;
+}
+.home-child48 {
+  top: 7005px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.itlia1 {
+  position: absolute;
+  top: 7023px;
+  left: 1012px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.home-child49,
+.image-10-icon1 {
+  position: absolute;
+  left: 71px;
+  width: 380px;
+}
+.image-10-icon1 {
+  top: 7301px;
+  border-radius: var(--br-3xl);
+  height: 253px;
+  object-fit: cover;
+}
+.home-child49 {
+  top: 7479px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.espanha1 {
+  position: absolute;
+  top: 7495px;
+  left: 90px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.home-child50,
+.image-11-icon1 {
+  position: absolute;
+  left: 527px;
+  width: 405px;
+}
+.image-11-icon1 {
+  top: 7301px;
+  border-radius: var(--br-lg);
+  height: 210px;
+  object-fit: cover;
+}
+.home-child50 {
+  top: 7479px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 101px;
+}
+.eua1 {
+  position: absolute;
+  top: 7498px;
+  left: 566px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.image-12-icon1 {
+  position: absolute;
+  top: 7301px;
+  left: 993px;
+  border-radius: var(--br-4xl);
+  width: 379px;
+  height: 215px;
+  object-fit: cover;
+}
+.home-child51 {
+  position: absolute;
+  top: 7479px;
+  left: 993px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 377px;
+  height: 101px;
+}
+.argentina1,
+.logo28 {
+  position: absolute;
+  top: 7492px;
+  left: 1019px;
+  display: inline-block;
+  width: 327px;
+  height: 92px;
+}
+.logo28 {
+  top: 42px;
+  left: 132px;
+  background-color: var(--color-gray-100);
+  width: 240px;
+  height: 59px;
+  display: none;
+}
+.ofertas18,
+.regies16,
+.uvas18,
+.vinhos18 {
+  position: absolute;
+  top: 161px;
+  left: 155px;
+  font-weight: 500;
+  display: inline-block;
+  width: 97px;
+  height: 27px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.ofertas18,
+.regies16,
+.uvas18 {
+  left: 313px;
+  width: 141px;
+}
+.regies16,
+.uvas18 {
+  left: 482px;
+  width: 117px;
+  height: 21px;
+}
+.regies16 {
+  top: 163px;
+  left: 617px;
+  width: 159px;
+  height: 39px;
+}
+.barra-de-pesquisa14 {
+  position: absolute;
+  top: 152px;
+  left: 1046px;
+  border-radius: var(--br-6xl);
+  width: 353px;
+  height: 43px;
+}
+.copo-de-vinho-removebg-preview-icon16 {
+  position: absolute;
+  top: 166px;
+  left: 116px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.discount-sticker-with-percenta-icon17,
+.uvas-1-icon14 {
+  position: absolute;
+  top: 166px;
+  left: 276px;
+  width: 29px;
+  height: 29px;
+  object-fit: cover;
+}
+.uvas-1-icon14 {
+  left: 445px;
+  width: 30px;
+  height: 30px;
+}
+.man-1-icon14,
+.pinodelocalizacao-1-icon14 {
+  position: absolute;
+  top: 169px;
+  left: 588px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.man-1-icon14 {
+  top: 27px;
+  left: 1355px;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+}
+.frame-child24 {
+  position: absolute;
+  top: 23px;
+  left: 1327px;
+  border-right: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 2px;
+  height: 53px;
+}
+.idioma28,
+.portugus-portugal14 {
+  position: absolute;
+  left: 1127px;
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+}
+.idioma28 {
+  top: 28px;
+  font-size: var(--font-size-xs);
+  width: 66px;
+  height: 25px;
+  opacity: 0.5;
+}
+.portugus-portugal14 {
+  top: 37px;
+  font-size: var(--font-size-sm);
+  width: 303px;
+  height: 24px;
+  background-color: transparent;
+}
+.frame-child25 {
+  position: absolute;
+  top: 34px;
+  left: 116px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #d9d9d9;
+  width: 266px;
+  height: 119px;
+}
+.logo29 {
+  position: absolute;
+  top: 14px;
+  left: 70px;
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 230px;
+  height: 79px;
+}
+.lupa-1-icon14 {
+  position: absolute;
+  top: 165px;
+  left: 1059px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.logo-parent11 {
+  position: fixed;
+  top: -1px;
+  left: 0;
+  background-color: var(--color-brown-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1441px;
+  height: 229px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-ibm-plex-sans-condensed);
+  z-index: 100;
+}
+
+
+.home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 8557px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-assistant);
+}
+
+.ofertas18:hover,
+.regies16:hover,
+.uvas18:hover,
+.vinhos18:hover {
+  color: black;
+}
+
+.ofertas18:hover,
+.regies16:hover,
+.uvas18:hover,
+.vinhos18:hover {
+  text-decoration: none;
+}
+
+
+
+.pesquisar-qualquer-vinho14 {
+  position: absolute;
+  top: 154px;
+  left: 1098px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  display: inline-block;
+  width: 313px;
+  height: 26px;
+  background-color: transparent;
+}
+
+.input-field {
+  width: 80%;
+  padding: 5px;
+  outline: 0;
+  background-color: transparent;
+  border: transparent;
+  color: white;
+    font-weight: bold;
+}
+
+.home-child {
+  position: absolute;
+  top: 563px;
+  left: 761px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 569px;
+  height: 280px;
+}
+
+.aderir-j,
+.best-sellers-portugal,
+.introduza-o-seu2 {
+  position: absolute;
+  display: inline-block;
+}
+.aderir-j {
+  top: 1466px;
+  left: 855px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  color: var(--color-white);
+  background-color: transparent;
+  border-radius: var(--br-md);
+  border: 3px solid var(--color-white);
+  width: 258px;
+  height: 78px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.aderir-j:hover {
+  opacity: 0.8;
+}
+
+.rectangle-input {
+  position: absolute;
+  top: 1470px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  height: 78px;
+}
+.rectangle-input {
+  left: 199px;
+  border-radius: 15px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  width: 575px;
+  font-size: 30px;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: white;
+}
+
+.input-field-modal {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  background-color: transparent;
+  border: transparent;
+  color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.login-child {
+  position: absolute;
+  top: 102px;
+  left: 243px;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 954px;
+  height: 1418px;
+}
+.iniciar-sesso2,
+.junte-se-a-ns1 {
+  position: absolute;
+  color: var(--color-black);
+  display: inline-block;
+}
+.junte-se-a-ns1 {
+  top: 290px;
+  left: 386px;
+  font-size: var(--font-size-6xl);
+  width: 604px;
+  height: 85px;
+}
+.iniciar-sesso2 {
+  top: 375px;
+  left: 396px;
+  font-size: var(--font-size-5xl);
+  width: 626px;
+  height: 86px;
+}
+.login-item {
+  position: absolute;
+  top: 490px;
+  left: 396px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 659px;
+  height: 89px;
+}
+.introduza-o-seu1 {
+  position: absolute;
+  top: 510px;
+  left: 416px;
+  color: var(--color-gray-400);
+  display: inline-block;
+  width: 620px;
+  height: 40px;
+}
+.login-inner {
+  position: absolute;
+  top: 608px;
+  left: 396px;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-brown-100);
+  border: 1px solid var(--color-brown-100);
+  box-sizing: border-box;
+  width: 659px;
+  height: 92px;
+}
+.login-child1 {
+  top: 803px;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-black);
+}
+.login-child1,
+.login-child2,
+.login-child3 {
+  position: absolute;
+  left: 396px;
+  border-radius: var(--br-2xl);
+  box-sizing: border-box;
+  width: 659px;
+  height: 92px;
+}
+.login-child2 {
+  top: 1060px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-white);
+}
+.login-child3 {
+  top: 934px;
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-gray-300);
+}
+.continuar1,
+.ou1 {
+  position: absolute;
+  display: inline-block;
+}
+.continuar1 {
+  top: 619px;
+  left: 396px;
+  font-size: var(--font-size-4xl);
+  text-align: center;
+  width: 659px;
+  height: 70px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.continuar1:hover {
+  opacity: 0.8;
+}
+
+
+
+.ou1 {
+  top: 728px;
+  left: 704px;
+  color: var(--color-black);
+  width: 43px;
+  height: 46px;
+  opacity: 0.5;
+}
+.login-child4,
+.login-child5 {
+  position: absolute;
+  top: 760.68px;
+  left: 396px;
+  width: 294px;
+  height: 3.67px;
+  opacity: 0.5;
+}
+.login-child5 {
+  top: 760.55px;
+  left: 760.99px;
+  width: 294.01px;
+  height: 1.93px;
+}
+.image-14-icon1,
+.image-15-icon1 {
+  position: absolute;
+  top: 957px;
+  left: 433px;
+  width: 62px;
+  height: 46px;
+  object-fit: cover;
+}
+.image-15-icon1 {
+  top: 824px;
+  left: 435px;
+  width: 60px;
+  height: 49px;
+}
+.continuar-com-a1 {
+  top: 824px;
+}
+.continuar-com-a1,
+.continuar-com-o2,
+.continuar-com-o3 {
+  position: absolute;
+  left: 520px;
+  display: inline-block;
+  width: 479px;
+  height: 57px;
+}
+.continuar-com-o2 {
+  top: 957px;
+}
+.continuar-com-o3 {
+  top: 1074px;
+  color: var(--color-gray-100);
+}
+.image-16-icon1,
+.image-17-icon1 {
+  position: absolute;
+  top: 1068px;
+  left: 433px;
+  width: 63px;
+  height: 69px;
+  object-fit: cover;
+}
+.image-17-icon1 {
+  top: 196px;
+  left: 1027px;
+  width: 71px;
+  height: 71px;
+  cursor: pointer;
+}
+.junte-se-a-ns2,
+.no-tem-conta {
+  position: absolute;
+  font-weight: 600;
+  text-align: right;
+  display: inline-block;
+}
+.no-tem-conta {
+  top: 1240px;
+  left: 694px;
+  color: var(--color-black);
+  width: 361px;
+  height: 42px;
+}
+.junte-se-a-ns2 {
+  top: 1282px;
+  left: 791px;
+  color: var(--color-brown-100);
+  width: 260px;
+  height: 49px;
+  cursor: pointer;
+}
+
+.login {
+  position: relative;
+  width: 100%;
+  height: 1622px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-assistant);
+}
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  ;
+}
+
+
+/* CARROSEL */
+
+.carrosel {
+  position: absolute;
+  top: 2074px;
+  left: 128px;
+}
